@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #000000 !important;/* Temporary background color for testing */
+    padding: 10px 40px !important; 
+}
+
+.navbar ul {
+    background-color:  #000000 !important; /* Temporary background color for testing */
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+}
+
+.navbar ul li {
+    background-color: #000000 !important; /* Temporary background color for testing */
+    display: inline-block !important;
+    margin-right: 20px !important;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0 !important;
+}
+
+.navbar ul li a {
+    text-decoration: none !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.navbar ul li a:hover {
+    background-color: #b80193 !important;
+}
